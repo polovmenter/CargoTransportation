@@ -1,0 +1,29 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.4px;
+    color: $grey;
+}
+
+.container {
+    max-width: 1340px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: $dark;
+}
